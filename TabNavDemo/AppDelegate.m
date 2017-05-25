@@ -7,6 +7,7 @@
 //
 
 #import "AppDelegate.h"
+#import "OXTabbarViewController.h"
 
 @interface AppDelegate ()
 
@@ -16,7 +17,10 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    // Override point for customization after application launch.
+    // 设置标签栏为根视图框架
+    OXTabbarViewController *tabbarVC = [[OXTabbarViewController alloc] init];
+    self.window.rootViewController = tabbarVC;
+    [self.window makeKeyAndVisible];// 设置window为主窗口并显示
     return YES;
 }
 

@@ -15,6 +15,11 @@
 		AD413EE01ED6C2C60000F383 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AD413EDE1ED6C2C60000F383 /* LaunchScreen.storyboard */; };
 		AD413EEB1ED6C2C60000F383 /* TabNavDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = AD413EEA1ED6C2C60000F383 /* TabNavDemoTests.m */; };
 		AD413EF61ED6C2C60000F383 /* TabNavDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = AD413EF51ED6C2C60000F383 /* TabNavDemoUITests.m */; };
+		AD413F051ED6C3480000F383 /* OXTabbarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AD413F041ED6C3480000F383 /* OXTabbarViewController.m */; };
+		AD413F081ED6C3DF0000F383 /* OXHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AD413F071ED6C3DF0000F383 /* OXHomeViewController.m */; };
+		AD413F0B1ED6C64B0000F383 /* OXHomeDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AD413F0A1ED6C64B0000F383 /* OXHomeDetailViewController.m */; };
+		AD413F0E1ED6C79D0000F383 /* OXCollectViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AD413F0D1ED6C79D0000F383 /* OXCollectViewController.m */; };
+		AD413F111ED6C7DE0000F383 /* OXMeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AD413F101ED6C7DE0000F383 /* OXMeViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +56,16 @@
 		AD413EF11ED6C2C60000F383 /* TabNavDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TabNavDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AD413EF51ED6C2C60000F383 /* TabNavDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TabNavDemoUITests.m; sourceTree = "<group>"; };
 		AD413EF71ED6C2C60000F383 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AD413F031ED6C3480000F383 /* OXTabbarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OXTabbarViewController.h; sourceTree = "<group>"; };
+		AD413F041ED6C3480000F383 /* OXTabbarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OXTabbarViewController.m; sourceTree = "<group>"; };
+		AD413F061ED6C3DF0000F383 /* OXHomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OXHomeViewController.h; sourceTree = "<group>"; };
+		AD413F071ED6C3DF0000F383 /* OXHomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OXHomeViewController.m; sourceTree = "<group>"; };
+		AD413F091ED6C64B0000F383 /* OXHomeDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OXHomeDetailViewController.h; sourceTree = "<group>"; };
+		AD413F0A1ED6C64B0000F383 /* OXHomeDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OXHomeDetailViewController.m; sourceTree = "<group>"; };
+		AD413F0C1ED6C79D0000F383 /* OXCollectViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OXCollectViewController.h; sourceTree = "<group>"; };
+		AD413F0D1ED6C79D0000F383 /* OXCollectViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OXCollectViewController.m; sourceTree = "<group>"; };
+		AD413F0F1ED6C7DE0000F383 /* OXMeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OXMeViewController.h; sourceTree = "<group>"; };
+		AD413F101ED6C7DE0000F383 /* OXMeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OXMeViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +120,16 @@
 				AD413ED41ED6C2C50000F383 /* AppDelegate.m */,
 				AD413ED61ED6C2C50000F383 /* ViewController.h */,
 				AD413ED71ED6C2C50000F383 /* ViewController.m */,
+				AD413F031ED6C3480000F383 /* OXTabbarViewController.h */,
+				AD413F041ED6C3480000F383 /* OXTabbarViewController.m */,
+				AD413F061ED6C3DF0000F383 /* OXHomeViewController.h */,
+				AD413F071ED6C3DF0000F383 /* OXHomeViewController.m */,
+				AD413F091ED6C64B0000F383 /* OXHomeDetailViewController.h */,
+				AD413F0A1ED6C64B0000F383 /* OXHomeDetailViewController.m */,
+				AD413F0C1ED6C79D0000F383 /* OXCollectViewController.h */,
+				AD413F0D1ED6C79D0000F383 /* OXCollectViewController.m */,
+				AD413F0F1ED6C7DE0000F383 /* OXMeViewController.h */,
+				AD413F101ED6C7DE0000F383 /* OXMeViewController.m */,
 				AD413ED91ED6C2C60000F383 /* Main.storyboard */,
 				AD413EDC1ED6C2C60000F383 /* Assets.xcassets */,
 				AD413EDE1ED6C2C60000F383 /* LaunchScreen.storyboard */,
@@ -274,8 +299,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				AD413ED81ED6C2C50000F383 /* ViewController.m in Sources */,
+				AD413F051ED6C3480000F383 /* OXTabbarViewController.m in Sources */,
+				AD413F081ED6C3DF0000F383 /* OXHomeViewController.m in Sources */,
 				AD413ED51ED6C2C50000F383 /* AppDelegate.m in Sources */,
 				AD413ED21ED6C2C50000F383 /* main.m in Sources */,
+				AD413F0B1ED6C64B0000F383 /* OXHomeDetailViewController.m in Sources */,
+				AD413F0E1ED6C79D0000F383 /* OXCollectViewController.m in Sources */,
+				AD413F111ED6C7DE0000F383 /* OXMeViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
